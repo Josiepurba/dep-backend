@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "node ./bin/www",
-    "build": "npm run db:migrate && db:seed",
+    "build": "npm run db:migrate && npm run db:seed",
     "develop": "nodemon -q bin/www",
     "dev": "nodemon -L bin/www",
     "db:create": "./node_modules/.bin/sequelize-cli db:create",
