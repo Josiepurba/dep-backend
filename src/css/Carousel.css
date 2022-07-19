@@ -1,0 +1,19 @@
+.carousel-height {
+  height: 450px !important;
+}
+.carousel-img {
+  object-fit: cover;
+  height: 100% !important;
+}
+
+@media screen and (max-width: 991px) {
+  .carousel-height {
+    height: 350px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .carousel-height {
+    height: 250px !important;
+  }
+}

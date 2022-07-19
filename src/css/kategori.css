@@ -1,0 +1,15 @@
+.kategory-active {
+  background: #7126b5 !important;
+  color: white !important;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.kategory-deactive {
+  background: #e2d4f0 !important;
+  color: black !important;
+}
+
+.btn-kategory {
+  padding: 14px 24px !important;
+}
